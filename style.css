@@ -91,6 +91,7 @@ p.bgtransparente {
     height: 100%;
     width: 100%;
     box-shadow: inset 4px 5px 20px rgba(0, 0, 0, 0.479);
+    text-shadow: 1px 1px 0px black;
 }
 
 
