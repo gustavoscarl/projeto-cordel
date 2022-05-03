@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root {
+    --fonteheading: 'Passion One', cursive;
+    --fontesubheading: Verdana, Arial, sans-serif;    
+    --fontetexto: 'Sriracha', cursive;;
+    --tamanhoheading: 7.5rem;
+    --tamanhosubheading: 1.8rem;
+    font-size: 62.5%;
+
+}
+body {
+    margin: 0px 0px 0px 0px;
+    font-size: 62.5%;
+}
+
+header {
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin: 0px 0px 0px 0px;
+        
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+    font-size: var(--tamanhoheading);
+    padding-top: 5rem;
+    font-family: var(--fonteheading);
+    font-variant: small-caps;
+    
+}
+
+header p {
+    font-size: var(--tamanhosubheading);
+    padding-bottom: 5rem;
+}
+
+main p {
+    font-family:var(--fontetexto) ;
+    font-size: 2.6rem;
+    margin-left: 3rem;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+main > section.branco > p {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: 5rem;
+}
+
+#imagemflor {
+    background-color: rgb(15, 66, 2);
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 4px 5px 20px rgba(0, 0, 0, 0.356);
+}
+
+
+p.bgtransparente {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.151);
+    margin-left: 5rem;
+}
+
+#imagemlivro {
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 4px 5px 20px rgba(0, 0, 0, 0.479);
+}
+
+
+footer > p {
+    background-color: black;
+    color: white;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
