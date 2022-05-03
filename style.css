@@ -77,6 +77,7 @@ p.bgtransparente {
     padding-left: 5px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.151);
     margin-left: 5rem;
+    text-shadow: 1px 1px 0px black;
 }
 
 #imagemlivro {
@@ -91,7 +92,7 @@ p.bgtransparente {
     height: 100%;
     width: 100%;
     box-shadow: inset 4px 5px 20px rgba(0, 0, 0, 0.479);
-    text-shadow: 1px 1px 0px black;
+    
 }
 
 
